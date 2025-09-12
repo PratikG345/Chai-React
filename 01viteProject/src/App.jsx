@@ -1,33 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>Chai Aur React | Pratik Gaikwad</h1>
+      <ul>
+        <li>Created a react app. Or a react software or folder.
+        <li>We saw/read the package.json file of it.</li>
+        <li>After reading that file, we executed the react app (start) also build it using the command given inside that package file.</li>
+        <li>Now, created a vite react folder (vite = library)</li>
+        <li>Also, saw the package.json file for vite.</li>
+        <li>Then executed the vite folder i.e. dev  (start).</li>
+        <li>Now, after executing both the folder, we removed un-useful file from both.</li>
+        <li>Then, Executed our first react and vite programme.</li></li>
+      </ul>
     </>
   )
 }
